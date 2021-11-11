@@ -1,6 +1,6 @@
 # sldms
 
-sldms is a stable and effective tool for constructing overlap for Genome sequencing data.
+sldms is a stable and effective tool for calculating the overlapping regions of sequences。
 
 sldms runs in internal memory and the results are written to disk.
 

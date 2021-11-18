@@ -88,5 +88,17 @@ To run a test with all strings from ``dataset/example.txt``, type:
 
 ## authors
 * [Dongliang You](https://github.com/Dongliang-You)
+```
+## To other software developers:
 
+If you want to know the operation details of sldms, you can search the papers on sldms. The papers provide detailed design ideas and implementation details. You can read the papers together with the code.
 
+If you meet one of the following conditions:
+
+1. You are preparing to develop other downstream software in the genome assembly software based on OLC (overlap layout consensus) algorithm, and sldms can just be your upstream software.
+
+2. You are developing a complete genome assembly software, and you want to take sldms as a part of your software.
+
+For the above two cases, if you do not need to input the sldms results to the disk, but need the sldms results to be used as data in your software, you can choose to modify the 251 / 258 / 259 / 544 / 546 / 549 lines of code in lib / until. C, use an array to receive these data and use them in return values or other forms, Use this as the data input part or intermediate result part of your software.
+
+If you have any questions about this software, please send an email to the author. If the author sees your email, he will provide you with the corresponding answers. Mail: 627542498@nefu.edu.cn

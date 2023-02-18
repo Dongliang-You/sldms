@@ -1,13 +1,4 @@
-// vim: noai:ts=2:sw=2
 
-/*
- * gsufsort
- *
- * Authors: Felipe A. Louza
- * contact: louza@usp.br
- * 18/09/2018
- *
- */
 
 #include <stdio.h>
 #include <errno.h>
